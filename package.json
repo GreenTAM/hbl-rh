@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "directus start",
-    "build": "npx directus bootstrap"
+    "build": "npx directus bootstrap",
+    "dev": "node node_modules/directus/dist/start.js"
   },
   "keywords": [],
   "author": "",
